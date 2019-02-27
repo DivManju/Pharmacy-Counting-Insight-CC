@@ -19,7 +19,7 @@
 4. If the map did not contain the key, a new Drug object was created and the fields of the new drug object such as cost, number of prescribers and Set of prescribers was initialized
 5. If the map contained the key, the cost was updated and the Set was checked for the existence of the prescriber. If the prescriber did not exist, the prescriber was added to the Set and the count was updated
 6. After parsing the entire input file, the values of the dictionary were stored in an list, which was then sorted according to total_cost using the default sort() function of python which implements Timesort()
-7.Finally, this sorted ArrayList was appended to the output file, the String representation of each Drug object in the list (defined in Drug class) was used for writing each line in the output file
+7. The sorted list was appended to the output file, the String representation of each Drug object in the list (defined in Drug class) was used for writing to output file
 
 ## Data structures
 
