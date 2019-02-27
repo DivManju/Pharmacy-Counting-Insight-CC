@@ -17,7 +17,7 @@
 2. Intialize a python dictionary, use drug name as the key, map key to Drug object
 3. Loop through each line of input file and check for presence of drug key 
    - If key not present 
-     initiliaze a new "Drug" class object and set its attributes
+     intialize a new "Drug" class object and set its attributes
    - If key present
      update total cost
      check if prescriber is present in set if not update count
