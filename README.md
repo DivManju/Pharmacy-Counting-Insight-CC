@@ -13,7 +13,7 @@
 
 ## Approach
 
-1. Create "Drug" class to store drug name, number of prescribers, total cost and set of unique prescribers (stored in Python Set)
+1. Create "Drug" class to store drug name, number of prescribers, total cost and unique prescribers(stored in Python Set)
 2. Intialize a python dictionary, use drug name as the key, map key to Drug object
 3. Loop through each line of input file and check for presence of drug key 
    - If key not present<br />
