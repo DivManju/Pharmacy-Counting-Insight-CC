@@ -22,7 +22,7 @@
      update total cost<br />
      check if prescriber is present in set if not update count
 4. Convert all the values in dictionary to list, sort based on total_cost (default sort() implements Timesort())
-7. Append string representation defined in "Drug" class of sorted list to output file
+7. Append string representation (defined in "Drug" class) of sorted list to output file
 ## Data structures
 
 1. Dictionary to map key (drug name) to "Drug" object
