@@ -16,10 +16,10 @@
 1. Create "Drug" class to store drug name, number of prescribers, total cost and set of unique prescribers (stored in Python Set)
 2. Intialize a python dictionary, use drug name as the key, map key to Drug object
 3. Loop through each line of input file and check for presence of drug key 
-   - If key not present 
+   - If key not present__
      intialize a new "Drug" class object and set its attributes
-   - If key present
-     update total cost
+   - If key present__
+     update total cost__
      check if prescriber is present in set if not update count
 4. Convert all the values in dictionary to list, sort based on total_cost (default sort() implements Timesort())
 7. Append string representation defined in "Drug" class of sorted list to output file
